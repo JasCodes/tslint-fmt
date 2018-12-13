@@ -1,0 +1,27 @@
+{
+    "name": "tslint-fmt",
+    "version": "0.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:jas99/tslint-fmt.git",
+    "author": "Jaspreet Singh <dev@jas.bio>",
+    "license": "MIT",
+    "bin": {
+        "tslint-fmt": ".dist/tslint-fmt.js"
+    },
+    "scripts": {
+        "build": "NODE_ENV=production parcel build index.ts -t node"
+    },
+    "dependencies": {
+        "async-shelljs": "^0.1.2",
+        "fs-extra": "^7.0.1"
+    },
+    "devDependencies": {
+        "@jas99/tslint-config": "^1.2.0",
+        "@types/fs-extra": "^5.0.4",
+        "parcel": "^1.10.3",
+        "ts-node": "^7.0.1",
+        "tslint": "^5.11.0",
+        "typescript": "^3.2.2",
+        "typescript-formatter": "^7.2.2"
+    }
+}

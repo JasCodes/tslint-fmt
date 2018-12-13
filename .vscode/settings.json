@@ -1,0 +1,12 @@
+{
+    "json.format.enable": true,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.validate.enable": true,
+    "saveAndRun": {
+        "commands": [
+            {
+                "cmd": "./run.js ${file}"
+            }
+        ]
+    }
+}
