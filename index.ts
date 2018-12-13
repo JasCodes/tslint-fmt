@@ -3,7 +3,7 @@ import { Linter, Configuration } from "tslint"
 import * as fs from "fs-extra"
 import * as path from "path"
 
-const tslint_fmt = async ( fileName : string, verbose : boolean = false, configFileName : string = "tslint.json" ) =>
+const tslint_fmt = async ( fileName: string, verbose: boolean = false, configFileName: string = "tslint.json" ) =>
 {
     const fileContent = await fs.readFile( fileName, "utf8" )
     const configuration = Configuration.findConfiguration( configFileName, fileName ).results
