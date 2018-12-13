@@ -42,7 +42,8 @@ const main = async () =>
 
     const ext = path.extname( filename )
     const isDir = ( await fs.lstat( filename ) ).isDirectory()
-    if ( ext !== ".ts" && ext !== ".tsx" && isDir )
+
+    if ( ( ext !== ".ts" && ext !== ".tsx" ) || isDir )
     {
         console.warn( "Must be .ts or .tsx file" )
         return
