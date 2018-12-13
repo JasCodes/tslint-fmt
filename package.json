@@ -6,7 +6,7 @@
     "author": "Jaspreet Singh <dev@jas.bio>",
     "license": "MIT",
     "bin": {
-        "tslint-fmt": ".dist/tslint-fmt.js"
+        "tslint-fmt": "run.js"
     },
     "scripts": {
         "build": "NODE_ENV=production parcel build index.ts -t node"
