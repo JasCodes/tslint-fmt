@@ -1,6 +1,6 @@
 {
     "name": "tslint-fmt",
-    "version": "0.0.1-alpha.1",
+    "version": "0.0.2-0",
     "main": "index.js",
     "repository": "git@github.com:jas99/tslint-fmt.git",
     "author": "Jaspreet Singh <dev@jas.bio>",
