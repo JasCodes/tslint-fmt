@@ -9,6 +9,7 @@
         "tslint-fmt": "run.js"
     },
     "scripts": {
+        "test": "echo tslint-fmt",
         "build": "NODE_ENV=production parcel build index.ts -t node"
     },
     "husky": {
