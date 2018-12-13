@@ -5,7 +5,9 @@
     "saveAndRun": {
         "commands": [
             {
-                "cmd": "./run.js ${file}"
+                "cmd": "./run.js ${file}",
+                "match": "\\.(ts|tsx)$",
+                "silent": true
             }
         ]
     }
